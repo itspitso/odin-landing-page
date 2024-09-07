@@ -21,13 +21,14 @@ body {
     color: #f9faf8;
 }
 
-ul {
+.header ul {
     list-style-type: none;
     display: flex;
     align-items: center;
+    align-self: flex-end;
 }
 
-li {
+.header li {
     padding: 10px;
 }
 
