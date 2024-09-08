@@ -150,3 +150,20 @@ button {
     background-color: white;
   
 }
+
+blockquote {
+    color: #1f2937;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 100px;
+}
+
+.third-section p {
+    font-weight: bold;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    text-align: end;
+    font-size: 24px;
+}
