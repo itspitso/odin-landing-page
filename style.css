@@ -49,6 +49,7 @@ body {
 .first-section {
     display: flex;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .first-section h1 {
@@ -91,12 +92,19 @@ button {
     background-color: #3882f6;
     color: #f9faf8;
     font-size: 18px;
+    font-weight: bold;
     border: none;
     padding: 5px;
     width: 120px;
     border-radius: 5px;
 }
 
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
 
 .second-section h1 {
     margin-top: 50px;
@@ -106,4 +114,39 @@ button {
     font-size: 36px;
     text-align: center;
     font-weight: 900;
+}
+
+.random {
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+
+.container p {
+    color: #525252;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    padding: 20px;
+}
+
+.pic {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 15px;
+    background-color: white;
+  
 }
