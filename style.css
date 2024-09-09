@@ -148,6 +148,12 @@ button {
     background-color: white;
   
 }
+.third-section {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 blockquote {
     color: #1f2937;
@@ -156,6 +162,7 @@ blockquote {
     font-weight: lighter;
     font-style: italic;
     padding: 100px;
+    width: 60%;
 }
 
 .third-section p {
