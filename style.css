@@ -8,8 +8,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 125px;
+    margin-right: 125px;
 }
 
 body {
@@ -69,17 +69,15 @@ body {
     flex-direction: column;
     justify-content: center;
     background-color: #1f2937;
+    padding: 20px;
 }
 
 .hero {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
-.hero p {
-    padding: 20px;
-}
 .image {
     color: #e5e7eb;
     font-size: 18px;
@@ -177,7 +175,7 @@ blockquote {
     background-color: white;
 }
 .cta {
-    width: 75%;
+    width: 60%;
     height:fit-content;
     background-color: #3882f6;
     color:#f9faf8;
