@@ -101,6 +101,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: white;
 }
 
@@ -115,11 +116,11 @@ button {
 }
 
 .random {
-    margin: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: white;
+    width: 60%;
 }
 
 .container {
@@ -140,8 +141,8 @@ button {
 }
 
 .pic {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border-style: solid;
     border-color: #3882f6;
     border-radius: 15px;
